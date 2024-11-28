@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Chez Daba</title>
+    <link rel="stylesheet" href="stlyle.css">
+    <div class="flex-container">
+           
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Restaurant Chez Daba</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Menu </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        A propos de nous
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Contact</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+    
+        <div class="hero text-center">
+            <div>
+                <h1>Bienvenue au Restaurant Chez Daba</h1>
+                <a href="#menu" class="btn btn-primary">Découvrez notre Menu</a>
+            </div>
+        </div>
+    
+        <!-- Section Menu -->
+        <div id="menu" class="container py-5">
+            <h2 class="text-center mb-4">Notre Menu</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://st5.depositphotos.com/88369228/74261/i/380/depositphotos_742617622-stock-photo-delicious-seafood-wooden-plate.jpg" alt="Plat 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Plat 1</h5>
+                            <p class="card-text">Description du plat 1</p>
+                            <p class="text-success">€12.50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://st3.depositphotos.com/13324256/18592/i/380/depositphotos_185925716-stock-photo-top-view-grilled-chicken-vegetables.jpg" alt="Plat 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Plat 2</h5>
+                            <p class="card-text">Description du plat 2</p>
+                            <p class="text-success">€15.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://st.depositphotos.com/1491329/2459/i/380/depositphotos_24594153-stock-photo-salad-with-smoked-eel-with.jpg" alt="Plat 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Plat 3</h5>
+                            <p class="card-text">Description du plat 3</p>
+                            <p class="text-success">€18.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://st3.depositphotos.com/13324256/32203/i/380/depositphotos_322035096-stock-photo-spicy-seafood-meat-ramen-bowl.jpg" class="img-fluid" alt="Notre restaurant">
+                </div>
+                <div class="col-md-6">
+                    <h2>À propos de nous</h2>
+                    <p>Notre restaurant est un endroit où vous pouvez savourer des plats délicieux préparés avec des ingrédients frais. Notre équipe passionnée travaille pour vous offrir une expérience culinaire inoubliable.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="container py-5">
+            <h2 class="text-center mb-4">Contactez-nous</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Nom</label>
+                        <input type="text" class="form-control" id="name" placeholder="Votre nom">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Votre email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Votre message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+
+        <footer class="bg-dark text-white text-center py-3">
+            <p>&copy; 2024 Restaurant Chez Daba. Tous droits réservés.</p>
+            <div>
+                <a href="#" class="text-white mx-2">Facebook</a>
+                <a href="#" class="text-white mx-2">Instagram</a>
+                <a href="#" class="text-white mx-2">Twitter</a>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+</body>
+</html>
